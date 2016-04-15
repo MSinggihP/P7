@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int angka;
+    int hasil;
+
+    hasil=1;
+    cout<<"Masukan Nilai : ";
+    cin>>angka;
+    cout<<endl<<angka<<"! = ";
+    for(int i=angka;i>=1;i--){
+        if(i==1){
+            cout<<i;
+        }else{
+        cout<<i<<"x";
+        }
+        hasil=hasil*i;
+    }
+    cout<<" = "<<hasil<<endl;
+
+return 0;
+}
